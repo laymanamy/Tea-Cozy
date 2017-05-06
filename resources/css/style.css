@@ -1,0 +1,73 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 49px;
+  background: black;
+  color: white;
+  border-bottom: 1px solid seashell;
+  padding: 10px
+}
+
+header a {
+  color: white;
+}
+
+.logo{
+  height: 50px;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+}
+
+#featured {
+  width: 1000px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+}
+
+.downtown .eastbayside .oakdale {
+  background-color: black;
+  width: 300px;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  padding: 20px;
+  text-align: left;
+}
+
+#mission, #locations, #featured {
+  margin: 0px auto;
+}
